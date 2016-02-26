@@ -1,0 +1,14 @@
+module KBaseGenotypePhenotype{
+
+ /*
+     
+ */
+
+    typedef structure {
+            string geolocation_id;
+            string description;
+            float latitude;
+            float longitude;
+            float altitude;
+
+}
