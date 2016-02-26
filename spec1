@@ -1,3 +1,12 @@
+#some urls
+Solr genotype phenotype
+http://www.mousephenotype.org/data/documentation/phenotype-help
+
+#EBI
+https://github.com/mpi2/PhenotypeArchive/wiki/Genotype-associated-Phenotype-calls-REST-API
+
+
+
 module KBaseGenotypePhenotype{
 
  /*
