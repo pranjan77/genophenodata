@@ -1,9 +1,10 @@
 #some urls
-Solr genotype phenotype
-http://www.mousephenotype.org/data/documentation/phenotype-help
-
+#chado natural diversity module
+https://github.com/GMOD/Chado/blob/master/chado/modules/natural_diversity/natural_diversity.sql
+#Solr genotype phenotype
+#http://www.mousephenotype.org/data/documentation/phenotype-help
 #EBI
-https://github.com/mpi2/PhenotypeArchive/wiki/Genotype-associated-Phenotype-calls-REST-API
+#https://github.com/mpi2/PhenotypeArchive/wiki/Genotype-associated-Phenotype-calls-REST-API
 
 
 
@@ -51,5 +52,23 @@ type_id: type of assay, genotyping, phenotyping, should ideally be a detailed st
             GeoLocation GeoLocation_info;
             string type_id;
     } ExperimentProject;
+    
+
+/*
+An Experiment can have any number of slot-value property tags attached to it. This is an alternative to
+hardcoding a list of columns in  schema, and is completely extensible. There is a unique constraint, stockprop_c1, for
+the combination of stock_id, rank, and type_id. Multivalued property-value pairs must be differentiated by rank.';
+*/
+
+    typedef structure {
+            string experimentprop_id;
+            Experiment experiment_id;
+            string type_id;
+            string value;
+            int rank;
+    } ExperimentProp;
+
+
+
 
 
