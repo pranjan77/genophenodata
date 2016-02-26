@@ -1,7 +1,11 @@
 module KBaseGenotypePhenotype{
 
  /*
-     
+     geolocation_id: The geo-referencable location of the stock.
+     description: A textual representation of the location, if this is the original georeference. Optional if the original georeference is available in lat/long coordinates.
+     latitude: The decimal latitude coordinate of the georeference, using positive and negative sign to indicate N and S, respectively.
+     longitude: The decimal longitude coordinate of the georeference, using positive and negative sign to indicate E and W, respectively.
+     altitude: The altitude (elevation) of the location in meters. If the altitude is only known as a range, this is the average.
  */
 
     typedef structure {
@@ -10,5 +14,33 @@ module KBaseGenotypePhenotype{
             float latitude;
             float longitude;
             float altitude;
+    } GeoLocation;
+    
+    
+/*
+The Experiment represents each individual assay that is undertaken (this is usually *not* an 
+entire experiment). Each Experiment should give rise to a single genotype or 
+phenotype and be described via 1 (or more) protocols. 
+*/
 
-}
+    typedef structure {
+            string experiment_id;
+            GeoLocation GeoLocation_info;
+            string type_id;
+    } Experiment;
+
+
+/*
+Used to group together related Experiment records. All Experiment should be linked to at least one ExperimentProject. 
+GeoLocation_info: GeoLocation of the individual being assayed
+type_id: type of assay, genotyping, phenotyping, should ideally be a detailed structure picking from database somewhere
+
+*/
+
+    typedef structure {
+            string experiment_project_id;
+            GeoLocation GeoLocation_info;
+            string type_id;
+    } ExperimentProject;
+
+
