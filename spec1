@@ -67,6 +67,19 @@ the combination of stock_id, rank, and type_id. Multivalued property-value pairs
             string value;
             int rank;
     } ExperimentProp;
+    
+/*
+Linking Experiment(s) to publication(s)
+*/
+
+    typedef structure {
+            string experiment_pub_id;
+            Experiment experiment_id;
+            int pub_id;
+            string value;
+            int rank;
+    } ExperimentPub;
+    
 
 
 
