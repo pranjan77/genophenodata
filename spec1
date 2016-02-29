@@ -76,12 +76,35 @@ Linking Experiment(s) to publication(s)
             string experiment_pub_id;
             Experiment experiment_id;
             int pub_id;
-            string value;
-            int rank;
     } ExperimentPub;
     
 
+/*
+Property/value associations for geolocations. This can store the properties such as location and environment'
+type_id: The name of the property as a reference to a controlled vocabulary term.
+value: Value of the property
+rank: The rank of the property value, if the property has an array of values.
+*/
 
+    typedef structure {
+            string geolocation_prop_id;
+            GeoLocation geolocation_id;
+            string type_id;
+            string value;
+            int rank;
+    } GeoLocationProp;
+    
 
+/*
+A protocol can be anything that is done as part of the experiment.
+name: The protocol name.
+*/
+
+    typedef structure {
+            string protocol_id;
+            string name;
+            string type_id;
+    } Protocol;
+    
 
 
