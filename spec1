@@ -6,7 +6,8 @@ https://github.com/GMOD/Chado/blob/master/chado/modules/natural_diversity/natura
 #EBI
 #https://github.com/mpi2/PhenotypeArchive/wiki/Genotype-associated-Phenotype-calls-REST-API
 #Sol genomics
-
+#Good stuff for landing pages
+http://www.resspecies.org/resspecies/AllSpecies.htm
 
 
 module KBaseGenotypePhenotype{
