@@ -22,6 +22,8 @@ This product will have following methods.
     
 #### Supported narrative methods
 
+Mockup narrative here: https://appdev.kbase.us/narrative/ws.179.obj.1
+
     Associate SNPs to a genome
     Display GWAS results
         static manhattan plot
