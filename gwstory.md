@@ -52,6 +52,7 @@ Mockup narrative here: https://appdev.kbase.us/narrative/ws.179.obj.1
 Researcher A has completed genome wide association analysis for drought tolerance in Sorghum. GWAS is done outside of KBase. She imports genotype/phenotype/gwas_results to KBase using import methods. The GWAS results show that she has 100 SNPs that are significantly associated to the phenotype. She wants to understand the biology and underlying genes/pathways that she can then use to engineer plants for drought tolerance. 
     
 #### Time line
-Sprint 1: develop data models to support genotype/phenotype datasets. Support of phenotype ontology needed.
-Sprint 2-4: Develop backend methods / visualization methods
+
+ Sprint 1: develop data models to support genotype/phenotype datasets. Support of phenotype ontology needed.
+ Sprint 2-4: Develop backend methods / visualization methods
 Sprint 
