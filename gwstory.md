@@ -62,6 +62,7 @@ The initial effort is focused on getting the data models correct, outreach with 
 - Identify key community members and work with them to get publicly available GWAS datasets into KBase
 - Identify and engage users working with different genomes to find gaps/methods needed
 - Initial set of backend methods / visualization methods to engage the community
+
 ##### Sprint 5-8: 
 - Enhance backend methods / visualization methods
 
