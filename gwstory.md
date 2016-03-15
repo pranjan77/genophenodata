@@ -1,13 +1,14 @@
 ## SDK and Science Target Functionality - post GWAS functional analysis
 
 ### Summary
-The methods in this service will help users to explore Genomewide association analysis results, multiple ways to visualize the results, integrate with omics datasets, expedite data mining and aid hypotheses building.
+The methods in this service will help users to explore Genomewide association analysis results, multiple ways to visualize the results, integrate with omics datasets, expedite data mining and aid hypotheses building. 
 
 ### Story/Description 
 Genome wide association analysis (GWAS) identifies statistically significant single nucleotide polymorphisms (SNPs) related to phenotype / trait of interest. Post GWAS analyses which is going from list of SNPs to a more complete biological story is a major bottleneck. Most of these analysis require manual data extraction and integration with other data types including expression data and pathway data. Just sharing of this dataset is a big challenge for the community. 
 
-GWAS populations and thousands of population level measurements are available for various plant species including Arabidopsis, Populus, Medicago, Sorghum, Maize, Soybean, Foxtail millet, Rice, Switchgrass etc. It is a new functionality and will help us target a different set of researchers leading to citations.
+GWAS populations and thousands of population level measurements are available for various plant species including Arabidopsis, Populus, Medicago, Sorghum, Maize, Soybean, Foxtail millet, Rice, Switchgrass etc. It is a new functionality and will help us target a different set of researchers leading to publications and citations.
 
+There are not many publicly available data sources for gwas datasets. Engaging community members and allowing easy ways to upload these datasets and their integration will enrich the KBase knowledgebase component. Sequenced genomes contain thousands of unknown genes and a proper integration of gwas datasets will help build hypothesis on function of unknown genes. 
 
 This product will have following methods.
 
@@ -53,13 +54,16 @@ Researcher A has completed genome wide association analysis for drought toleranc
     
 #### Time line
 
-##### Sprint 1-2: 
+The initial effort is focused on getting the data models correct, outreach with community members and finding right set of data sets and methods.
+
+##### Sprint 1-4: 
 - Develop data models to support genotype/phenotype datasets.
 - Support for phenotype ontology
+- Identify key community members and work with them to get publicly available GWAS datasets into KBase
 - Identify and engage users working with different genomes to find gaps/methods needed
- 
-##### Sprint 3-6: 
-- Develop backend methods / visualization methods
+- Initial set of backend methods / visualization methods to engage the community
+##### Sprint 5-8: 
+- Enhance backend methods / visualization methods
 
 
 ### Test Plan
