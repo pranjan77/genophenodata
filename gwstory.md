@@ -53,6 +53,12 @@ Researcher A has completed genome wide association analysis for drought toleranc
     
 #### Time line
 
- Sprint 1: develop data models to support genotype/phenotype datasets. Support of phenotype ontology needed.
- Sprint 2-4: Develop backend methods / visualization methods
-Sprint 
+##### Sprint 1-2: 
+- Develop data models to support genotype/phenotype datasets.
+- Support for phenotype ontology
+- Identify and engage users working with different genomes to find gaps/methods needed
+ 
+##### Sprint 3-6: 
+- Develop backend methods / visualization methods
+
+
