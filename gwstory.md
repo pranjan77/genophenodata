@@ -62,3 +62,5 @@ Researcher A has completed genome wide association analysis for drought toleranc
 - Develop backend methods / visualization methods
 
 
+### Test Plan
+Potential users from different communities will be engaged right from the first sprint. They will upload test/real datasets and give feedback on the methods.
