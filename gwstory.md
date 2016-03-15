@@ -10,7 +10,7 @@ GWAS populations and thousands of population level measurements are available fo
 
 This product will have following methods.
 
-Data types and uploader methods
+#### Data types and uploader methods
 
     upload SNPs
     upload SNP statistics for each phenotype
@@ -20,6 +20,23 @@ Data types and uploader methods
     upload network data (not defined yet?.. Something for future)
     
     
+#### Supported narrative methods
+
+    Associate SNPs to a genome
+    Display GWAS results
+        static manhattan plot
+        Interactive manhattan plot
+        QQ-Plot
+        Box plot distribution of phenotypes
+        Phenotypic values displayed on world map
+    Identify gene list corresponding to SNPs
+    Calculate and View LD in a region of the genome
+    Gene score analysis 
+    Pathway enrichment analysis
+    Gene ontology enrichment analysis
+    Associate genelist to expression data and visualize as heatmap
+    Associate gene list to user uploaded network data
+    Identify common SNPs and genes across multiple related phenotype categories
     
     
     
