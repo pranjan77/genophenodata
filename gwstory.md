@@ -8,6 +8,7 @@ Genome wide association analysis (GWAS) identifies statistically significant sin
 
 GWAS populations and thousands of population level measurements are available for various plant species including Arabidopsis, Populus, Medicago, Sorghum, Maize, Soybean, Foxtail millet, Rice, Switchgrass etc. It is a new functionality and will help us target a different set of researchers leading to citations.
 
+
 This product will have following methods.
 
 #### Data types and uploader methods
@@ -20,7 +21,7 @@ This product will have following methods.
     upload network data (not defined yet?.. Something for future)
     
     
-#### Supported narrative methods
+#### Supported narrative methods in the short term
 
 Mockup narrative here: https://appdev.kbase.us/narrative/ws.179.obj.1
 
@@ -40,7 +41,7 @@ Mockup narrative here: https://appdev.kbase.us/narrative/ws.179.obj.1
     Associate gene list to user uploaded network data
     Identify common SNPs and genes across multiple related phenotype categories
     
-#### Longer term
+#### Supported narrative methods with external dependencies (longer term)
 
         Visualize SNPs in genome browser
         Predict functional effect of SNP (SIFT , snpEFF etc.) 
