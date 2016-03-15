@@ -13,16 +13,11 @@ This product will have following methods.
 Data types and uploader methods
 
     upload SNPs
-
     upload SNP statistics for each phenotype
-
     upload phenotype data
-
     upload population metadata (eg. latitude, longitude, climate, soil)
-
     upload expression data (already implemented)
-
-    upload network data (not defined yet.. Something for future)
+    upload network data (not defined yet?.. Something for future)
     
     
     
