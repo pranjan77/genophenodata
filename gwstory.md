@@ -36,14 +36,22 @@ Mockup narrative here: https://appdev.kbase.us/narrative/ws.179.obj.1
     Calculate and View LD in a region of the genome
     Gene score analysis 
     Pathway enrichment analysis
-    Gene ontology enrichment analysis
-    Associate genelist to expression data and visualize as heatmap
-    Associate gene list to user uploaded network data
     Identify common SNPs and genes across multiple related phenotype categories
+    Associate genelist to expression data and visualize as heatmap
+    Associate gene list to user uploaded network data (Dependency network data uploader)
+    Gene ontology enrichment analysis (part of GSEA PD)
     
 #### Supported narrative methods with external dependencies (longer term)
 
         Visualize SNPs in genome browser
         Predict functional effect of SNP (SIFT , snpEFF etc.) 
         Analysing non-coding SNPs by associating it to a database of conserved non-coding sequences and regulatory motifs
+
+
+### Use cases 
+Researcher A has completed genome wide association analysis for drought tolerance in Sorghum. GWAS is done outside of KBase. She imports genotype/phenotype/gwas_results to KBase using import methods. The GWAS results show that she has 100 SNPs that are significantly associated to the phenotype. She wants to understand the biology and underlying genes/pathways that she can then use to engineer plants for drought tolerance. 
     
+#### Time line
+Sprint 1: develop data models to support genotype/phenotype datasets. Support of phenotype ontology needed.
+Sprint 2-4: Develop backend methods / visualization methods
+Sprint 
