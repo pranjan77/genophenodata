@@ -38,5 +38,9 @@ This product will have following methods.
     Associate gene list to user uploaded network data
     Identify common SNPs and genes across multiple related phenotype categories
     
-    
+#### Longer term
+
+        Visualize SNPs in genome browser
+        Predict functional effect of SNP (SIFT , snpEFF etc.) 
+        Analysing non-coding SNPs by associating it to a database of conserved non-coding sequences and regulatory motifs
     
