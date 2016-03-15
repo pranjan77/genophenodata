@@ -65,6 +65,7 @@ The initial effort is focused on getting the data models correct, outreach with 
 
 ##### Sprint 5-8: 
 - Enhance backend methods / visualization methods
+- Search and integration of publicly available gwas datasets
 
 
 ### Test Plan
